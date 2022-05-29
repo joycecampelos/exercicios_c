@@ -37,5 +37,5 @@ int main()
         default:
             printf ("\n Estacao nao encontrada \n");
     }
-return 0;
+    return 0;
 }

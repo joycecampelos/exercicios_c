@@ -3,13 +3,10 @@ EXERCÍCIO 13 - Crie um programa que some o tempo de duração (em minutos) das 
 */
 
 #include <stdio.h>
-#include <locale.h>
 
 int main ()
 {
     float tempo1, tempo2, tempo3, soma;
-
-    setlocale (LC_ALL, "Portuguese");
 
     printf ("Digite o tempo da primeira volta: ");
     scanf ("%f", &tempo1);
@@ -28,9 +25,9 @@ int main ()
         printf ("Total: %.2f m. Mais rapida: Segunda volta.", soma);
     }
     else if (tempo3 < tempo1 && tempo3 < tempo2) {
-        printf ("Total: %.2f m. Mais rápida: 3ª volta.", soma);
+        printf ("Total: %.2f m. Mais rápida: Terceira volta.", soma);
     }
     else
         printf ("Total: %.2f m. Nao eh possivel saber qual volta foi mais rapida.", soma);
-return 0;
+    return 0;
 }

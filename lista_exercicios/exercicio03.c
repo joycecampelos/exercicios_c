@@ -21,5 +21,5 @@ int main ()
    printf ("\nDivisao = %i", A / B);
    printf ("\nResto da Divisao = %i", A % B);
 
-return 0;
+   return 0;
 }

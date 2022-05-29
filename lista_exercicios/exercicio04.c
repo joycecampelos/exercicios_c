@@ -21,5 +21,5 @@ int main ()
     printf ("\nSegundo: %.2f", (B * B));
     printf ("\nTerceiro: %.2f", (C * C));
 
-return 0;
+    return 0;
 }

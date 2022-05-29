@@ -1,6 +1,5 @@
 /*
-EXERCÍCIO 02 - Escreva um programa em C em que seja lido um valor decimal e seja impresso esse valor com
-reajuste de 10%.
+EXERCÍCIO 02 - Escreva um programa em C em que seja lido um valor decimal e seja impresso esse valor com reajuste de 10%.
 */
 
 #include <stdio.h>
